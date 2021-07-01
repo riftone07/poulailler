@@ -1,13 +1,13 @@
 <!-- Datereproduction Field -->
 <div class="form-group">
-    {!! Form::label('dateReproduction', 'Datereproduction:') !!}
+    {!! Form::label('dateReproduction', 'Date :') !!}
     <p>{{ $poulayer->dateReproduction }}</p>
 </div>
 
 <!-- Lot Id Field -->
 <div class="form-group">
-    {!! Form::label('lot_id', 'Lot Id:') !!}
-    <p>{{ $poulayer->lot_id }}</p>
+    {!! Form::label('lot_id', 'Lot:') !!}
+    <p>{{ $poulayer->lot->libelle }}</p>
 </div>
 
 <!-- Mortalite Male Field -->

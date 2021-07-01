@@ -15,7 +15,6 @@
                          <div class="card">
                              <div class="card-header">
                                  <strong>Details</strong>
-                                  <a href="{{ route('poulayers.index') }}" class="btn btn-light">Back</a>
                              </div>
                              <div class="card-body">
                                  @include('poulayers.show_fields')

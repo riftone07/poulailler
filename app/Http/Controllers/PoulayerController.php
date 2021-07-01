@@ -63,7 +63,7 @@ class PoulayerController extends AppBaseController
 
         Flash::success('Fiche créee avec succèss');
 
-        return redirect(route('welcome'));
+        return back();
     }
 
     /**
