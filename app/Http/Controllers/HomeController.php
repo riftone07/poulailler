@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Poulayer;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -24,7 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $poulayers = Poulayer::all();
+        $poulayers = Poulayer::whereDate('created_at', Carbon::today())->get();
         return view('home',compact('poulayers'));
     }
 }

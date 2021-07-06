@@ -29,3 +29,6 @@ Route::resource('lots', App\Http\Controllers\LotController::class);
 Route::resource('poulayers', App\Http\Controllers\PoulayerController::class);
 
 });
+
+
+Route::resource('sokhnas', App\Http\Controllers\SokhnaController::class);
