@@ -13,6 +13,6 @@
 <li class="nav-item {{ Request::is('poulayers*') ? 'active' : '' }}">
     <a class="nav-link" href="{{ route('poulayers.index') }}">
         <i class="nav-icon icon-cursor"></i>
-        <span>Poulayers</span>
+        <span>Poulaillers</span>
     </a>
 </li>

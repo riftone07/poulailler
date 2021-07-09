@@ -19,14 +19,13 @@
 <body class="app flex-row align-items-center">
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-6">
             <div class="card-group">
                 <div class="card p-4">
                     <div class="card-body">
                         <form method="post" action="{{ url('/login') }}">
                             @csrf
-                            <h1>Login</h1>
-                            <p class="text-muted">Sign In to your account</p>
+                            <h2 class="text-center"> Page de  connection</h2>
                             <div class="input-group mb-3">
                                 <div class="input-group-prepend">
                                     <span class="input-group-text">
@@ -56,13 +55,9 @@
                             </div>
                             <div class="row">
                                 <div class="col-6">
-                                    <button class="btn btn-primary px-4" type="submit">Login</button>
+                                    <button class="btn btn-primary px-4" type="submit">Se Connecter</button>
                                 </div>
-                                <div class="col-6 text-right">
-                                    <a class="btn btn-link px-0" href="{{ url('/password/reset') }}">
-                                        Forgot password?
-                                    </a>
-                                </div>
+                            
                             </div>
                         </form>
                     </div>

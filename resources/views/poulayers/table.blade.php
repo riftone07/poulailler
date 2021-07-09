@@ -2,11 +2,11 @@
     <table class="table table-striped" id="poulayers-table">
         <thead>
         <tr>
-            <th>Datereproduction</th>
+            <th>Date de réproduction</th>
             <th>Lot</th>
-            <th>Mortalite Male</th>
-            <th>Mortalite Femelle</th>
-            <th>Mortalite Totale</th>
+            <th>Mortalité Male</th>
+            <th>Mortalité Femelle</th>
+            <th>Mortalité Totale</th>
             <th>Ponte Totale</th>
             <th>Action</th>
         </tr>

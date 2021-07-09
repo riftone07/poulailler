@@ -109,7 +109,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="text-value-lg">{{ $poulayers->sum('mous') }}</div>
-                            <div>Oeufs Mous</div>
+                            <div>Œufs Mous</div>
                             <div class="progress progress-xs my-2">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -122,7 +122,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="text-value-lg">{{ $poulayers->sum('casses') }}</div>
-                            <div>Oeufs Cassés</div>
+                            <div>Œufs Cassés</div>
                             <div class="progress progress-xs my-2">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -135,7 +135,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="text-value-lg">{{ $poulayers->sum('feles') }}</div>
-                            <div>Oeufs Felés</div>
+                            <div>Œufs Felés</div>
                             <div class="progress progress-xs my-2">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -148,7 +148,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="text-value-lg">{{ $poulayers->sum('rugueux') }}</div>
-                            <div>Oeufs Rugueux</div>
+                            <div>Œufs Rugueux</div>
                             <div class="progress progress-xs my-2">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -160,7 +160,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="text-value-lg">{{ $poulayers->sum('gros') }}</div>
-                            <div>Oeufs Gros</div>
+                            <div>Œufs Gros</div>
                             <div class="progress progress-xs my-2">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -172,7 +172,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="text-value-lg">{{ $poulayers->sum('petits') }}</div>
-                            <div>Oeufs Petits</div>
+                            <div>Œufs Petits</div>
                             <div class="progress progress-xs my-2">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -184,7 +184,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="text-value-lg">{{ $poulayers->sum('difformes') }}</div>
-                            <div>Oeufs Difformés</div>
+                            <div>Œufs Difformés</div>
                             <div class="progress progress-xs my-2">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -197,7 +197,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="text-value-lg">{{ $poulayers->sum('couleur') }}</div>
-                            <div>Oeufs De Couleur</div>
+                            <div>Œufs De Couleur</div>
                             <div class="progress progress-xs my-2">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
@@ -210,7 +210,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="text-value-lg">{{ $poulayers->sum('gel') }}</div>
-                            <div>Oeufs Gelé</div>
+                            <div>Œufs Gelés</div>
                             <div class="progress progress-xs my-2">
                                 <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
